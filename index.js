@@ -18,20 +18,22 @@ const client = new MongoClient(uri, {
 });
 
 
-const allowedOrigins = ['https://golden-bubblegum-05f10dd.netlify.app', 'https://a-10-server-qhdn.vercel.app']; 
-const corsOptions = {
-  origin: (origin, callback) => {
-    if (allowedOrigins.includes(origin) || !origin) {
-      callback(null, true);
-    } else {
-      callback(new Error('Not allowed by CORS'));
-    }
-  },
-  credentials: true,
-};
-app.use(cors(corsOptions));
+// const allowedOrigins = ['https://golden-bubblegum-05f10dd.netlify.app', 'https://a-10-server-qhdn.vercel.app']; 
+// const corsOptions = {
+//   origin: (origin, callback) => {
+//     if (allowedOrigins.includes(origin) || !origin) {
+//       callback(null, true);
+//     } else {
+//       callback(new Error('Not allowed by CORS'));
+//     }
+//   },
+//   credentials: true,
+// };
+// app.use(cors(corsOptions));
 
-app.use(express.json());
+// app.use(express.json());
+
+app.use(cors());
 
 // --- Sample initial movies ---
 const initialMovies = [
