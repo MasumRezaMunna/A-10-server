@@ -18,7 +18,7 @@ const client = new MongoClient(uri, {
 });
 
 
-const allowedOrigins = ['https://golden-bubblegum-05f10d.netlify.app/']; 
+const allowedOrigins = ['https://golden-bubblegum-05f10dd.netlify.app/']; 
 const corsOptions = {
   origin: (origin, callback) => {
     if (allowedOrigins.includes(origin) || !origin) {
