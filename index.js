@@ -31,7 +31,7 @@ const initialMovies = [
     duration: 148,
     plotSummary:
       "A thief who steals corporate secrets through dream-sharing technology...",
-    posterUrl: "https://i.ibb.co/L5rK5Qd/inception.jpg",
+    posterUrl: "https://ibb.co.com/nqwswHGx",
     language: "English",
     country: "USA",
     addedBy: "admin@moviemaster.com",
@@ -45,7 +45,7 @@ const initialMovies = [
     rating: 9.3,
     duration: 142,
     plotSummary: "Two imprisoned men bond over a number of years...",
-    posterUrl: "https://i.ibb.co/v4tN12x/shawshank.jpg",
+    posterUrl: "https://ibb.co.com/pvt4TZyB",
     language: "English",
     country: "USA",
     addedBy: "admin@moviemaster.com",
@@ -65,6 +65,148 @@ const initialMovies = [
     country: "USA",
     addedBy: "admin@moviemaster.com",
   },
+  
+  {
+    "title": "The Dark Knight",
+    "genre": "Action",
+    "releaseYear": 2008,
+    "director": "Christopher Nolan",
+    "cast": "Christian Bale, Heath Ledger",
+    "rating": 9.0,
+    "duration": 152,
+    "plotSummary": "When the menace known as the Joker wreaks havoc and chaos on the people of Gotham...",
+    "posterUrl": "https://i.ibb.co/bF07s7T/the-dark-knight.jpg",
+    "language": "English",
+    "country": "USA",
+    "addedBy": "admin@moviemaster.com"
+  },
+  {
+    "title": "Forrest Gump",
+    "genre": "Drama",
+    "releaseYear": 1994,
+    "director": "Robert Zemeckis",
+    "cast": "Tom Hanks, Robin Wright",
+    "rating": 8.8,
+    "duration": 142,
+    "plotSummary": "The presidencies of Kennedy and Johnson, the Vietnam War, the Watergate scandal... all seen from the perspective of an Alabama man with an IQ of 75.",
+    "posterUrl": "https://i.ibb.co/3s3v1s6/forrest-gump.jpg",
+    "language": "English",
+    "country": "USA",
+    "addedBy": "admin@moviemaster.com"
+  },
+  {
+    "title": "Parasite",
+    "genre": "Thriller",
+    "releaseYear": 2019,
+    "director": "Bong Joon Ho",
+    "cast": "Song Kang-ho, Lee Sun-kyun",
+    "rating": 8.5,
+    "duration": 132,
+    "plotSummary": "Greed and class discrimination threaten the newly formed symbiotic relationship between the wealthy Park family and the destitute Kim clan.",
+    "posterUrl": "https://i.ibb.co/0Jc9fXb/parasite.jpg",
+    "language": "Korean",
+    "country": "South Korea",
+    "addedBy": "admin@moviemaster.com"
+  },
+  {
+    "title": "Spirited Away",
+    "genre": "Animation",
+    "releaseYear": 2001,
+    "director": "Hayao Miyazaki",
+    "cast": "Rumi Hiiragi, Miyu Irino",
+    "rating": 8.6,
+    "duration": 125,
+    "plotSummary": "During her family's move to the suburbs, a 10-year-old girl wanders into a world ruled by gods, witches, and spirits...",
+    "posterUrl": "https://i.ibb.co/4Z1T8fV/spirited-away.jpg",
+    "language": "Japanese",
+    "country": "Japan",
+    "addedBy": "admin@moviemaster.com"
+  },
+  {
+    "title": "The Matrix",
+    "genre": "Sci-Fi",
+    "releaseYear": 1999,
+    "director": "Lana Wachowski, Lilly Wachowski",
+    "cast": "Keanu Reeves, Laurence Fishburne",
+    "rating": 8.7,
+    "duration": 136,
+    "plotSummary": "A computer hacker learns from mysterious rebels about the true nature of his reality and his role in the war against its controllers.",
+    "posterUrl": "https://i.ibb.co/h9g9j3s/the-matrix.jpg",
+    "language": "English",
+    "country": "USA",
+    "addedBy": "admin@moviemaster.com"
+  },
+  {
+    "title": "Gladiator",
+    "genre": "Action",
+    "releaseYear": 2000,
+    "director": "Ridley Scott",
+    "cast": "Russell Crowe, Joaquin Phoenix",
+    "rating": 8.5,
+    "duration": 155,
+    "plotSummary": "A former Roman General sets out to exact vengeance against the corrupt emperor who murdered his family and sent him into slavery.",
+    "posterUrl": "https://i.ibb.co/xJHYK2S/gladiator.jpg",
+    "language": "English",
+    "country": "USA",
+    "addedBy": "admin@moviemaster.com"
+  },
+  {
+    "title": "The Grand Budapest Hotel",
+    "genre": "Comedy",
+    "releaseYear": 2014,
+    "director": "Wes Anderson",
+    "cast": "Ralph Fiennes, F. Murray Abraham",
+    "rating": 8.1,
+    "duration": 99,
+    "plotSummary": "The adventures of Gustave H, a legendary concierge at a famous European hotel between the wars, and Zero Moustafa, the lobby boy who becomes his most trusted friend.",
+    "posterUrl": "https://i.ibb.co/0Y1fVjX/grand-budapest.jpg",
+    "language": "English",
+    "country": "USA",
+    "addedBy": "admin@moviemaster.com"
+  },
+  {
+    "title": "Interstellar",
+    "genre": "Sci-Fi",
+    "releaseYear": 2014,
+    "director": "Christopher Nolan",
+    "cast": "Matthew McConaughey, Anne Hathaway",
+    "rating": 8.7,
+    "duration": 169,
+    "plotSummary": "A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival.",
+    "posterUrl": "https://i.ibb.co/k0Gj3Bv/interstellar.jpg",
+    "language": "English",
+    "country": "USA",
+    "addedBy": "admin@moviemaster.com"
+  },
+  {
+    "title": "The Shining",
+    "genre": "Horror",
+    "releaseYear": 1980,
+    "director": "Stanley Kubrick",
+    "cast": "Jack Nicholson, Shelley Duvall",
+    "rating": 8.4,
+    "duration": 146,
+    "plotSummary": "A family heads to an isolated hotel for the winter where a sinister presence influences the father into violence...",
+    "posterUrl": "https://i.ibb.co/5c9jpbB/the-shining.jpg",
+    "language": "English",
+    "country": "USA",
+    "addedBy": "admin@moviemaster.com"
+  },
+  {
+    "title": "Amélie",
+    "genre": "Romance",
+    "releaseYear": 2001,
+    "director": "Jean-Pierre Jeunet",
+    "cast": "Audrey Tautou, Mathieu Kassovitz",
+    "rating": 8.3,
+    "duration": 122,
+    "plotSummary": "Amélie is an innocent and naive girl in Paris with her own sense of justice. She decides to help those around her and, along the way, discovers love.",
+    "posterUrl": "https://i.ibb.co/hW0Y3cT/amelie.jpg",
+    "language": "French",
+    "country": "France",
+    "addedBy": "admin@moviemaster.com"
+  }
+
 ];
 
 // --- Main server logic ---
@@ -194,7 +336,9 @@ async function run() {
           .toArray();
         res.send(movies);
       } catch (error) {
-        res.status(500).send({ message: "Failed to fetch user's movies", error });
+        res
+          .status(500)
+          .send({ message: "Failed to fetch user's movies", error });
       }
     });
 
@@ -206,7 +350,10 @@ async function run() {
           .status(400)
           .send({ message: "User email and movie ID are required." });
 
-      const existing = await watchlistCollection.findOne({ userEmail, movieId });
+      const existing = await watchlistCollection.findOne({
+        userEmail,
+        movieId,
+      });
       if (existing)
         return res.status(409).send({ message: "Movie already in watchlist." });
 
@@ -248,7 +395,6 @@ async function run() {
       }
     });
 
-    
     app.delete("/watchlist/:movieId", async (req, res) => {
       const { movieId } = req.params;
       const { email } = req.query;
@@ -259,12 +405,19 @@ async function run() {
           .send({ message: "Email and movie ID are required." });
 
       try {
-        const result = await watchlistCollection.deleteOne({ userEmail: email, movieId });
+        const result = await watchlistCollection.deleteOne({
+          userEmail: email,
+          movieId,
+        });
         if (result.deletedCount === 0)
-          return res.status(404).send({ message: "Movie not found in watchlist" });
+          return res
+            .status(404)
+            .send({ message: "Movie not found in watchlist" });
         res.send(result);
       } catch (error) {
-        res.status(500).send({ message: "Failed to remove movie from watchlist", error });
+        res
+          .status(500)
+          .send({ message: "Failed to remove movie from watchlist", error });
       }
     });
 
