@@ -6,8 +6,6 @@ const { MongoClient, ServerApiVersion, ObjectId } = require("mongodb");
 const app = express();
 const port = process.env.PORT || 5000;
 
-app.use(cors());
-app.use(express.json());
 
 const uri = process.env.MONGODB_URI;
 
@@ -18,6 +16,22 @@ const client = new MongoClient(uri, {
     deprecationErrors: true,
   },
 });
+
+
+const allowedOrigins = ['https://golden-bubblegum-05f10d.netlify.app/']; 
+const corsOptions = {
+  origin: (origin, callback) => {
+    if (allowedOrigins.includes(origin) || !origin) {
+      callback(null, true);
+    } else {
+      callback(new Error('Not allowed by CORS'));
+    }
+  },
+  credentials: true,
+};
+app.use(cors(corsOptions));
+
+app.use(express.json());
 
 // --- Sample initial movies ---
 const initialMovies = [
