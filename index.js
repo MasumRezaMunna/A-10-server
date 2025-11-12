@@ -222,7 +222,7 @@ async function run() {
       }
     });
 
-    // Get watchlist movies
+    // Get user's watchlist
     app.get("/watchlist/:email", async (req, res) => {
       try {
         const watchlistMovies = await watchlistCollection
@@ -249,22 +249,22 @@ async function run() {
     });
 
     // Remove from watchlist
-    app.delete("/watchlist", async (req, res) => {
-      const { userEmail, movieId } = req.query;
-      if (!userEmail || !movieId)
+    app.delete("/watchlist/:movieId", async (req, res) => {
+      const { movieId } = req.params;
+      const { email } = req.query;
+
+      if (!email || !movieId)
         return res
           .status(400)
-          .send({ message: "User email and movie ID are required." });
+          .send({ message: "Email and movie ID are required." });
 
       try {
-        const result = await watchlistCollection.deleteOne({ userEmail, movieId });
+        const result = await watchlistCollection.deleteOne({ userEmail: email, movieId });
         if (result.deletedCount === 0)
-          return res
-            .status(404)
-            .send({ message: "Item not found in watchlist." });
+          return res.status(404).send({ message: "Movie not found in watchlist" });
         res.send(result);
       } catch (error) {
-        res.status(500).send({ message: "Failed to remove from watchlist", error });
+        res.status(500).send({ message: "Failed to remove movie from watchlist", error });
       }
     });
 
