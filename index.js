@@ -248,7 +248,7 @@ async function run() {
       }
     });
 
-    // Remove from watchlist
+    
     app.delete("/watchlist/:movieId", async (req, res) => {
       const { movieId } = req.params;
       const { email } = req.query;
