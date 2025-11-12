@@ -31,7 +31,7 @@ const initialMovies = [
     duration: 148,
     plotSummary:
       "A thief who steals corporate secrets through dream-sharing technology...",
-    posterUrl: "https://ibb.co.com/nqwswHGx",
+    posterUrl: "https://i.ibb.co/Qv72PnRS/Inception.jpg",
     language: "English",
     country: "USA",
     addedBy: "admin@moviemaster.com",
@@ -45,7 +45,7 @@ const initialMovies = [
     rating: 9.3,
     duration: 142,
     plotSummary: "Two imprisoned men bond over a number of years...",
-    posterUrl: "https://ibb.co.com/pvt4TZyB",
+    posterUrl: "https://i.ibb.co/9HH1n13Q/the-Shawshank-redemption.jpg",
     language: "English",
     country: "USA",
     addedBy: "admin@moviemaster.com",
@@ -60,7 +60,7 @@ const initialMovies = [
     duration: 154,
     plotSummary:
       "The lives of two mob hitmen, a boxer, a gangster and his wife...",
-    posterUrl: "https://i.ibb.co/sK6s73V/pulp-fiction.jpg",
+    posterUrl: "https://i.ibb.co/xtN35g1h/Pulp-fiction.jpg",
     language: "English",
     country: "USA",
     addedBy: "admin@moviemaster.com",
@@ -75,7 +75,7 @@ const initialMovies = [
     "rating": 9.0,
     "duration": 152,
     "plotSummary": "When the menace known as the Joker wreaks havoc and chaos on the people of Gotham...",
-    "posterUrl": "https://i.ibb.co/bF07s7T/the-dark-knight.jpg",
+    "posterUrl": "https://i.ibb.co/wFxrKnpx/the-dark-knight.jpg",
     "language": "English",
     "country": "USA",
     "addedBy": "admin@moviemaster.com"
@@ -89,7 +89,7 @@ const initialMovies = [
     "rating": 8.8,
     "duration": 142,
     "plotSummary": "The presidencies of Kennedy and Johnson, the Vietnam War, the Watergate scandal... all seen from the perspective of an Alabama man with an IQ of 75.",
-    "posterUrl": "https://i.ibb.co/3s3v1s6/forrest-gump.jpg",
+    "posterUrl": "https://i.ibb.co/tpkZJxTC/forrest-gump.jpg",
     "language": "English",
     "country": "USA",
     "addedBy": "admin@moviemaster.com"
@@ -103,7 +103,7 @@ const initialMovies = [
     "rating": 8.5,
     "duration": 132,
     "plotSummary": "Greed and class discrimination threaten the newly formed symbiotic relationship between the wealthy Park family and the destitute Kim clan.",
-    "posterUrl": "https://i.ibb.co/0Jc9fXb/parasite.jpg",
+    "posterUrl": "https://i.ibb.co/4wcrGQ2N/parasite.jpg",
     "language": "Korean",
     "country": "South Korea",
     "addedBy": "admin@moviemaster.com"
@@ -117,7 +117,7 @@ const initialMovies = [
     "rating": 8.6,
     "duration": 125,
     "plotSummary": "During her family's move to the suburbs, a 10-year-old girl wanders into a world ruled by gods, witches, and spirits...",
-    "posterUrl": "https://i.ibb.co/4Z1T8fV/spirited-away.jpg",
+    "posterUrl": "https://i.ibb.co/bj222qwL/Spirited-away.jpg",
     "language": "Japanese",
     "country": "Japan",
     "addedBy": "admin@moviemaster.com"
@@ -131,7 +131,7 @@ const initialMovies = [
     "rating": 8.7,
     "duration": 136,
     "plotSummary": "A computer hacker learns from mysterious rebels about the true nature of his reality and his role in the war against its controllers.",
-    "posterUrl": "https://i.ibb.co/h9g9j3s/the-matrix.jpg",
+    "posterUrl": "https://i.ibb.co/zWgrT2C9/matrix.jpg",
     "language": "English",
     "country": "USA",
     "addedBy": "admin@moviemaster.com"
@@ -145,7 +145,7 @@ const initialMovies = [
     "rating": 8.5,
     "duration": 155,
     "plotSummary": "A former Roman General sets out to exact vengeance against the corrupt emperor who murdered his family and sent him into slavery.",
-    "posterUrl": "https://i.ibb.co/xJHYK2S/gladiator.jpg",
+    "posterUrl": "https://i.ibb.co/2YhZddLY/Gladiator.jpg",
     "language": "English",
     "country": "USA",
     "addedBy": "admin@moviemaster.com"
@@ -159,7 +159,7 @@ const initialMovies = [
     "rating": 8.1,
     "duration": 99,
     "plotSummary": "The adventures of Gustave H, a legendary concierge at a famous European hotel between the wars, and Zero Moustafa, the lobby boy who becomes his most trusted friend.",
-    "posterUrl": "https://i.ibb.co/0Y1fVjX/grand-budapest.jpg",
+    "posterUrl": "https://i.ibb.co/BHKXNx3t/the-grand-budapest-hotel.jpg",
     "language": "English",
     "country": "USA",
     "addedBy": "admin@moviemaster.com"
@@ -173,7 +173,7 @@ const initialMovies = [
     "rating": 8.7,
     "duration": 169,
     "plotSummary": "A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival.",
-    "posterUrl": "https://i.ibb.co/k0Gj3Bv/interstellar.jpg",
+    "posterUrl": "https://i.ibb.co/mrrzZCG4/interstellar-new-poster-wallpaper.jpg",
     "language": "English",
     "country": "USA",
     "addedBy": "admin@moviemaster.com"
@@ -187,7 +187,7 @@ const initialMovies = [
     "rating": 8.4,
     "duration": 146,
     "plotSummary": "A family heads to an isolated hotel for the winter where a sinister presence influences the father into violence...",
-    "posterUrl": "https://i.ibb.co/5c9jpbB/the-shining.jpg",
+    "posterUrl": "https://i.ibb.co/5wHTtTb/the-shining.jpg",
     "language": "English",
     "country": "USA",
     "addedBy": "admin@moviemaster.com"
@@ -201,7 +201,7 @@ const initialMovies = [
     "rating": 8.3,
     "duration": 122,
     "plotSummary": "Amélie is an innocent and naive girl in Paris with her own sense of justice. She decides to help those around her and, along the way, discovers love.",
-    "posterUrl": "https://i.ibb.co/hW0Y3cT/amelie.jpg",
+    "posterUrl": "https://i.ibb.co/m5rSFHmM/Am-lie.jpg",
     "language": "French",
     "country": "France",
     "addedBy": "admin@moviemaster.com"
